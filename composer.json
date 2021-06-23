@@ -1,0 +1,26 @@
+{
+  "name": "hfcfb/poster",
+  "description": "base on php gd lib's poster",
+  "type": "tool",
+  "keywords": [
+    "php",
+    "gd",
+    "poster"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "ChengDidi",
+      "email": "1515306648@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.33",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "hfcfb\\": "src/"
+    }
+  }
+}
